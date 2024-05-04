@@ -1,0 +1,25 @@
+{
+	"name": "kpp-server",
+	"version": "0.1.0",
+	"description": "케로로팡팡 프리서버 구현체",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "nunnu1028",
+	"license": "GPL-v3",
+	"dependencies": {
+		"bson": "^4.7.2",
+		"long": "^5.2.0",
+		"md5": "^2.3.0",
+		"net": "^1.0.2"
+	},
+	"devDependencies": {
+		"@types/bson": "^4.2.0",
+		"@types/md5": "^2.3.2",
+		"@types/node": "^17.0.31",
+		"ts-node": "^10.7.0",
+		"typescript": "^4.6.4"
+	}
+}
